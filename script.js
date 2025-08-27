@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn")
 const noBtn = document.querySelector(".no-btn")
 
 yesBtn.addEventListener("click", ()=> {
-    question.innerHTML = "យាយលេងសោះធ្លាក់មេនទែន🌚";
+    question.innerHTML = "Lerk kroy komplex chak terk jenh png🌚";
     gif .src="https://i.pinimg.com/originals/42/53/42/4253426e968c57f598bfa48eb3742d44.gif";
 })
 
@@ -19,4 +19,5 @@ noBtn.addEventListener("mouseover", () => {
 
     noBtn.style.left = randomX + "px";
     noBtn.style.top = randomY + "px";
+
 })
